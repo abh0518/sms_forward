@@ -1,2 +1,2 @@
-abh0518's SMS Forward Application
+abh0518's SMS Auto Forwarding Application
 
