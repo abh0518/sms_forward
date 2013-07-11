@@ -45,7 +45,6 @@ public class Main extends Activity {
 	}
 	
 	public void refresh(){
-		Log.d(this.getClass().toString(), "refresh");
 		Configuration config = new Configuration(Main.this);
 	   	String phoneNumber = config.getPhoneNumber();
 	   	TextView textView = (TextView)this.findViewById(R.id.input_phonenumber);
@@ -53,7 +52,6 @@ public class Main extends Activity {
 	}
 	
 	public void save(){
-		Log.d(this.getClass().toString(), "save");
 		TextView textView = (TextView)this.findViewById(R.id.input_phonenumber);
 	   	String phoneNumber = (String) textView.getText().toString();
 	   	Configuration config = new Configuration(Main.this);
